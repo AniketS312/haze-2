@@ -1,0 +1,103 @@
+.header {
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8vh;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    background-color: rgba(0,0,0, .6);
+    color: rgb(151,126,79);
+}
+
+
+.logo {
+    font-size: 4rem;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 500;
+    letter-spacing: .3rem;
+    background-color: transparent;
+    border: none;
+    color: rgb(151,126,79);
+}
+
+.hamburgermenu {
+    fill: rgb(151,126,79);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.menu {
+    position: relative;
+}
+
+ .mobilenav {
+  z-index: 10;
+  background-color: rgba(0,0,0, .90);
+  position: fixed;  
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .5;
+}
+
+
+
+ .mobilenav div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    height: 50%;    
+}
+
+ .mobilenav div > * {
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+.mobilenav .exit {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    fill: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 821px) {
+    .logo {
+        text-decoration: none;
+    }
+
+    .hamburgermenu svg {
+        height: 30px;
+        width: 30px;
+    }
+
+    .mobilenav div > *  {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .mobilenav div > *  {
+        font-size: 2rem;
+    }
+}

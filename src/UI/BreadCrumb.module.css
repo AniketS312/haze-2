@@ -1,0 +1,99 @@
+.breadcrumb {
+    width: 100%;
+    height: 45vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.breadcrumb::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, .4);
+}
+
+.breadcrumb img {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.text {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+}
+ .text h1 {
+     color:  white;
+    padding-bottom: 1rem;
+}
+
+.text span {
+    letter-spacing: .2rem;
+}
+
+@media only screen and (min-width: 2562px) {
+    .breadcrumb h1 {
+        font-size: 10rem;
+    }
+
+    .breadcrumb span {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 2561px) {
+    .breadcrumb h1 {
+        font-size: 8rem;
+    }
+
+    .breadcrumb span {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 1501px) {
+    .breadcrumb h1 {
+        font-size: 4rem;
+    }
+
+    .breadcrumb span {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .breadcrumb h1 {
+        font-size: 4rem;
+    }
+
+    .breadcrumb span {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .breadcrumb h1 {
+        font-size: 3rem;
+    }
+    .breadcrumb span {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .breadcrumb h1 {
+        font-size: 2.4rem;
+    }
+    .breadcrumb span {
+        font-size: 1rem;
+    }
+}

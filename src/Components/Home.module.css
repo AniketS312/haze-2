@@ -1,0 +1,104 @@
+.home {
+    height: 92vh;
+    padding: 0 10%;
+    max-width: 100%;
+    background:linear-gradient(0deg, rgba(0,0,0, .5),rgba(0,0,0, .5)), url(../../public/Assets/homepage-model.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home p {
+    letter-spacing: .3rem;
+}
+
+
+@media only screen and (min-width: 2562px) {
+    .home h1 {
+        font-size: 15rem;
+    }
+
+    .home p {
+        font-size: 4rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 2561px) {
+    .home h1 {
+        font-size: 12rem;
+    }
+
+    .home p {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .home h1 {
+        font-size: 8rem;
+    }
+
+    .home p {
+        font-size: 2rem;
+    }
+}
+
+
+@media only screen and (max-width: 1025px) {
+    .home h1 {
+        font-size: 6rem;
+    }
+
+    .home p {
+        font-size: 2rem;
+    }
+}   
+
+@media only screen and (max-width: 821px) {
+
+.home {
+    background:linear-gradient(0deg, rgba(0,0,0, .5),rgba(0,0,0, .5)), url(../../public/Assets/homepage-model-mobile.jpg);
+    background-size: cover;
+}
+}
+
+@media only screen and (max-width: 414px) {
+    
+
+    .home  h1{
+        font-size: 6rem;
+    }
+}
+
+
+@media only screen and (max-width: 376px) {
+    .home h1 {
+        font-size: 4rem;
+    }
+
+    .home p {
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .home h1 {
+        font-size: 4rem;
+    }
+
+    .home p {
+        padding-top: 1rem;
+        font-size: 1.4rem;
+    }
+}
+
+
+
+

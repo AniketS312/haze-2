@@ -1,0 +1,69 @@
+.info {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0 2rem 0;
+    gap: 100px;
+}
+
+.contactform h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form input {
+    font-size: 1.5rem;
+    height: 4.5rem;
+    padding: 1rem;
+    width: 48%;
+    background-color: #000000;
+    color: rgb(105,105,105);
+    border: .5px solid rgb(105,105,105);
+    margin-bottom: 2rem;
+}
+
+.form input:nth-last-child(2) {
+    width: 100%;
+    height: 20rem;
+}
+
+.form input[type=submit] {
+    color: white;
+    text-transform: uppercase;
+    width: 20%;
+    height: 5rem;
+    background-color: #977e4f;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+    .form input {
+        width: 100%;
+        padding: 1rem 01rem;
+    }
+
+    .form input[type=submit] {
+        width: 60%;
+    }
+
+    .contact {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+}
