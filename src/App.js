@@ -40,9 +40,6 @@ function App() {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  console.log(mobileView.width)
-
-
   return (
     <div className={classes.app}>
        <BrowserRouter>

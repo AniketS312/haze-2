@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 
 import BreadCrumb from "../UI/BreadCrumb";
 
 import PortfolioImg from '../Assets/portfolio.jpg'
-import data from "./PortfolioData";
 
 import classes from './Portfolio.module.css';
 

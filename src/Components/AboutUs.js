@@ -36,7 +36,7 @@ const WhoIAm = (props) => {
 
 const MappedClients = () => {
 const logoArray= [LogoOne, LogoTwo, LogoThree, LogoFour, LogoFive];
-const MapLogoArray= logoArray.map((logo) => <a href="https://www.google.com" target="noreferrer"><img src={logo} alt="company we ahve helped"/></a>) 
+const MapLogoArray= logoArray.map((logo, index) => <a key={index} href="https://www.google.com" target="noreferrer"><img src={logo} alt="company we have helped"/></a>) 
 
     return (
         <>{MapLogoArray}</>
